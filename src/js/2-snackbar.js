@@ -31,7 +31,9 @@ form.addEventListener('submit', (event) => {
         iziToast.show({
         title: 'Success',
         message: `✅ Fulfilled promise in ${delayValue}ms`,
-        color: 'green',
+        backgroundColor: '#59A10D',
+        messageColor: '#FFFFFF',
+
         position: 'topRight',
         });
     })
@@ -40,7 +42,9 @@ form.addEventListener('submit', (event) => {
         iziToast.show({
         title: 'Error',
         message: `❌ Rejected promise in ${delayValue}ms`,
-        color: 'red',
+        backgroundColor: '#EF4040',
+        messageColor: '#FFFFFF',
+
         position: 'topRight',
         });
     });
